@@ -1,0 +1,131 @@
+.about{
+    width: 70vw;
+    margin: auto;
+    /* border: 2px solid; */
+    box-shadow: rgb(36 36 58) 3px 3px 5px;
+}
+.about > h1{
+    color: rgb(204,214,246);
+   
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+}
+.line{
+   width: 150px;
+    height: 6px;
+    border-radius: 10px;
+    background: linear-gradient(
+270deg
+, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%);
+}
+.para{
+    margin-top: 30px;
+    /* max-width: 1000px; */
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    padding-bottom: 3.6rem;
+    color: rgba(255, 240, 240, 0.5);
+
+}
+.skills{
+     width: 70vw;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.skills > h1{
+      color: rgb(204,214,246);
+   
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+}
+.icons{
+background-color: #15023a ;
+/* height: 100px; */
+/* width: 150px; */
+/* text-align: center;
+ margin: 5px;
+ border: 1px solid white; */
+/* overflow-y: hidden; */
+width: 100px;
+    height: 100px;
+    display: flex;
+     text-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    font-size: 1.6rem;
+    color: rgb(242, 245, 247);
+}
+.iconContainer{
+    margin: 5px;
+        height: 40%;
+    width: 40%;
+    margin:  auto;
+    padding: 10px;
+
+}
+.iconContainer > img{
+    /* margin-top: 5px; */
+    height: 100%;
+    width: 100%;
+}
+.name{
+    color: rgb(242, 245, 247);
+    font-weight: 600;
+    /* margin: 5px; */
+    font-size: 16px;
+    /* padding: 5px; */
+}
+
+.options{
+    /* margin-top: 30px;
+    width: 100%;
+    background-color: red;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto; */
+    width: 100%;
+    max-height: 100vh;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto;
+    color: rgb(242, 245, 247);
+    cursor: default;
+}
+  @media screen and (max-width: 768px){
+    .options{
+       grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 4%;
+    }
+}
+@media screen and (max-width: 640px){
+    .options{
+        grid-template-columns: auto auto ;
+    grid-template-rows: auto;
+    gap: 3%;
+    }
+}
+
+  
+
+  /* @media screen and (max-width: 768px){
+    .options{
+       grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    gap: 4%;
+    }
+} */
+
+.mainCO{
+padding: 5px;
+}

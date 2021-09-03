@@ -3,12 +3,16 @@
 .topbar {
   width: 100%;
   height: 70px;
-  background-color: white;
-  color: $mainColor;
+  background-color: rgb(17,24,37);
+  color: white;
   position: fixed;
   top: 0;
   z-index: 3;
+  // box-shadow: rgb(36 36 58) 3px 3px 10px;
   transition: all 1s ease;
+   &::-webkit-scrollbar{
+      display: none;
+    }
 
   .wrapper {
     padding: 10px 30px;
@@ -19,7 +23,8 @@
     .left {
       display: flex;
       align-items: center;
-
+     
+    
       .logo {
         font-size: 40px;
         font-weight: 700;
@@ -27,41 +32,76 @@
         color: inherit;
         margin-right: 40px;
       }
-
+     
       .itemContainer {
         display: flex;
         align-items: center;
         margin-left: 30px;
+        cursor: pointer;
+      
 
         @include mobile{
           display: none;
+        }
+          & :hover{
+            font-weight: 500;
+         color: lightblue;
+        //  border-bottom: 2px solid blue;
         }
 
         .icon {
           font-size: 18px;
           margin-right: 5px;
+           border-bottom:none;
         }
 
         span {
           font-size: 15px;
           font-weight: 500;
+           border-bottom:none;
+        }
+      }
+    
+      .option{
+         display: flex;
+        align-items: center;
+        margin-left: 30vw;
+        cursor: pointer;
+        font-weight: 500;
+
+         & :hover{
+            font-weight: 500;
+         color: lightblue;
+        //  border-bottom: 2px solid blue;
+         &::-webkit-scrollbar{
+      display: none;
+    }
+        }
+
+        @include mobile{
+          display: none;
         }
       }
     }
 
     .right {
       .hamburger {
-        width: 32px;
+        display:none;
+
+        @include mobile{
+ width: 32px;
         height: 25px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
+        }
+       
 
         span {
           width: 100%;
           height: 3px;
-          background-color: $mainColor;
+          background-color: white;
           transform-origin: left;
           transition: all 2s ease;
         }
@@ -70,20 +110,26 @@
   }
 
   &.active {
-    background-color: $mainColor;
+    background-color: white;
     color: white;
+      &::-webkit-scrollbar{
+      display: none;
+    }
 
     .hamburger {
+        &::-webkit-scrollbar{
+      display: none;
+    }
       span {
         &:first-child {
-          background-color: white;
+          background-color: $mainColor;
           transform: rotate(45deg);
         }
         &:nth-child(2) {
           opacity: 0;
         }
         &:last-child {
-          background-color: white;
+          background-color: $mainColor;
           transform: rotate(-45deg);
         }
       }
