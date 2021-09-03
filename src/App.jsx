@@ -6,6 +6,8 @@ import "./App.scss"
 import { useState } from "react";
 import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
+import Projects from "./components/projects/Projects";
+import Copyright from "./components/copyright/Copyright"
 
 
 function App() {
@@ -17,9 +19,10 @@ function App() {
      
      <div className="sections">
         <Intro />
-        <About/>
+        <About />
+        <Projects/>
         <Contact/>
-      
+        <Copyright/>
       
      </div>
     </div>

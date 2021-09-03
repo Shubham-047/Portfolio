@@ -14,19 +14,19 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </a>
           <div className="option">
             <div className="itemContainer,option">
-           <span> Home</span>
+           <span> <a href="#intro">Home</a></span>
                      
           </div>
           <div className="itemContainer">
-           <span> About</span>
+           <span>  <a href="#about">About</a></span>
                      
           </div>
           <div className="itemContainer">
-            <span>  Projects</span>
+            <span> <a href="#projects">Projects</a></span>
                      
                   </div>
                    <div className="itemContainer">
-            <span>Contacts</span>
+            <span> <a href="#contact">Contacts</a></span>
           
             
             </div>

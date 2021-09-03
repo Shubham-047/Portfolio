@@ -1,7 +1,8 @@
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
-import GetAppIcon from '@material-ui/icons/GetApp';
+
+import DescriptionIcon from '@material-ui/icons/Description';
 
 export default function Intro() {
   const textRef = useRef();
@@ -25,7 +26,7 @@ export default function Intro() {
             a <span ref={textRef}></span>
           </h3>
           <h3 style={{ marginTop: "10px" }}>I'm from Bokaro,Jharkhand</h3>
-          <button className="btn"><span><GetAppIcon/></span>Resume</button>
+          <button className="btn"><span><DescriptionIcon/></span>Resume</button>
         </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="" />

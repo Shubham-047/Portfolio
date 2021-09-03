@@ -34,9 +34,9 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 
-export default function About() {
+export default function Contact() {
   return (
-    <div className="main">
+    <div className="main" id="contact">
       <div className="contact">
         <h1>Contact</h1>
         <div className="line"></div>
