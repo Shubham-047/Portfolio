@@ -81,11 +81,16 @@ margin: 10px;
 .card_btn > button:hover{
 border-radius: 25px;
 }
+.card_btn >button> a{
+     font-size: inherit;
+        color: inherit;
+        text-decoration: none;
+}
 
  @media screen and (max-width: 768px){
      .pcards{
          display: block;
-         width: 70vw;
+         width: 90%;
          margin: 20px;
      }
      .pimg{

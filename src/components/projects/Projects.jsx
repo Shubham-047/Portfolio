@@ -19,7 +19,7 @@ export default function Projects() {
           <p>HTML5 . CSS3 . Javascript</p>
           <div className="card_btn">
             <button>DEMO</button>
-            <button>CODE</button>
+            <button><a href="https://github.com/Shubham-047/Upgrad-Clone"> CODE</a></button>
           </div>
         </div>
           </div>
@@ -38,11 +38,11 @@ export default function Projects() {
           <p>React . Material-UI . Bootstrap . Styled-Components</p>
           <div className="card_btn">
             <button>DEMO</button>
-            <button>CODE</button>
+            <button><a href="https://github.com/sheikhtausif/IndeedClone"> CODE</a></button>
           </div>
         </div>
           </div>
-          
+         
 
           <div className="pcards">
         <div className="pimg">
@@ -57,7 +57,7 @@ export default function Projects() {
           <p>React . Material-UI . Styled-Components . Json-Server</p>
           <div className="card_btn">
             <button>DEMO</button>
-            <button>CODE</button>
+            <button><a href=" https://github.com/devSudhir/Priceline-Clone"> CODE</a></button>
           </div>
         </div>
       </div>
