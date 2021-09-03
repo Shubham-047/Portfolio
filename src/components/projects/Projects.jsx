@@ -8,7 +8,7 @@ export default function Projects() {
       <div className="line"></div>
       <div className="pcards">
         <div className="pimg">
-          <img src={"assets/upgradF.png"} alt="" />
+          <img src={"assets/upgradfu.png"} alt="" />
         </div>
         <div className="pinf">
           <h3>Upgrad(clone)</h3>
@@ -19,7 +19,7 @@ export default function Projects() {
           <p>HTML5 . CSS3 . Javascript</p>
           <div className="card_btn">
             <button>DEMO</button>
-            <button><a href="https://github.com/Shubham-047/Upgrad-Clone"> CODE</a></button>
+            <button><a target="_blank" href="https://github.com/Shubham-047/Upgrad-Clone"> CODE</a></button>
           </div>
         </div>
           </div>
@@ -27,7 +27,7 @@ export default function Projects() {
 
           <div className="pcards">
         <div className="pimg">
-          <img src={"assets/indeed.png"} alt="" />
+          <img src={"assets/indeed1.png"} alt="" />
         </div>
         <div className="pinf">
           <h3>Indeed(clone)</h3>
@@ -38,7 +38,7 @@ export default function Projects() {
           <p>React . Material-UI . Bootstrap . Styled-Components</p>
           <div className="card_btn">
             <button>DEMO</button>
-            <button><a href="https://github.com/sheikhtausif/IndeedClone"> CODE</a></button>
+            <button><a target="_blank" href="https://github.com/sheikhtausif/IndeedClone"> CODE</a></button>
           </div>
         </div>
           </div>
@@ -46,7 +46,7 @@ export default function Projects() {
 
           <div className="pcards">
         <div className="pimg">
-          <img src={"assets/pricelinf.png"} alt="" />
+          <img src={"assets/pricelin1.png"} alt="" />
         </div>
         <div className="pinf">
           <h3>Priceline(clone)</h3>
@@ -57,7 +57,7 @@ export default function Projects() {
           <p>React . Material-UI . Styled-Components . Json-Server</p>
           <div className="card_btn">
             <button>DEMO</button>
-            <button><a href=" https://github.com/devSudhir/Priceline-Clone"> CODE</a></button>
+            <button><a target="_blank" href=" https://github.com/devSudhir/Priceline-Clone"> CODE</a></button>
           </div>
         </div>
       </div>

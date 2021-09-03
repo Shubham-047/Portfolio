@@ -81,6 +81,11 @@
 height: 100%;
 width: 50px;
 }
+.icoL_icon > a{
+    font-size: inherit;
+        color: inherit;
+        text-decoration: none;
+}
 .icoL_icon :hover{
     height: 30px;
     width: 30px ;

@@ -56,16 +56,20 @@ export default function Contact() {
               <p>+91-9337822952</p>
             </div>
             <div className="icoL">
-              <div className="icoL_icon">
-                <EmailIcon />
+                <div className="icoL_icon">
+                  
+                   <a target="_blank" href="shubham1406kumar@gmail.com"><EmailIcon /></a>
+                
               </div>
 
-              <div className="icoL_icon">
-                <LinkedInIcon />
+                <div className="icoL_icon">
+                  <a target="_blank" href="https://www.linkedin.com/in/shubham-kumar-1478781b4/"><LinkedInIcon /></a>
+                
               </div>
 
-              <div className="icoL_icon">
-                <GitHubIcon />
+                <div className="icoL_icon">
+                  <a target="_blank" href="https://github.com/Shubham-047"><GitHubIcon /></a>
+                
               </div>
             </div>
           </div>
