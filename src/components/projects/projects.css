@@ -22,11 +22,12 @@ border: 3px solid rgb(57,43,94);
 width: 50%;
 height: 95%;
 /* padding: 5px; */
+margin:auto auto;
 
 }
-/* .pimg :hover{
-    padding: 5px;
-} */
+.pimg :hover{
+    /* margin: auto; */
+}
 .pimg >img{
     height: 95%;
     width: 95%;
