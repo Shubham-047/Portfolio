@@ -117,7 +117,8 @@ export default function About() {
               </div>
               <div className="name">GIT</div>
             </div>
-                  </div>
+          </div>
+          
                   
         </div>
       </div>
