@@ -93,7 +93,9 @@
 	width: 0;
 	margin-top: 5px;
 	height: 2px;
-	background: #00a0a0;
+	background: linear-gradient(
+270deg
+, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%);
 	transition: width 0.4s;
 }
  a:hover::after {
