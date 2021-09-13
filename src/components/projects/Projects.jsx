@@ -56,7 +56,7 @@ export default function Projects() {
           <h4>Tech Stack</h4>
           <p>React . Material-UI . Styled-Components . Json-Server</p>
           <div className="card_btn">
-            <button>DEMO</button>
+            <button><a target="_blank" href="https://priceline-clone.vercel.app">DEMO</a></button>
             <button><a target="_blank" href=" https://github.com/devSudhir/Priceline-Clone"> CODE</a></button>
           </div>
         </div>
