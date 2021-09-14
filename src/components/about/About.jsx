@@ -13,7 +13,7 @@ export default function About() {
            🏡 I am from Bokaro , Jharkhand.
              <br />
           
-            A Full-Stack Web Developer with a degree in Computer Science Engineering.
+            I am a Full-Stack Web Developer with a degree in Computer Science Engineering.
             <br />
            
             I am always curious about learning new technologies, and love to develop scalable web applications.
