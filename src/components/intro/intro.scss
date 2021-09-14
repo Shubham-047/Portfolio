@@ -24,7 +24,7 @@
       margin-top: 50px;
       // background-color: crimson;
      
-      border-radius: 50%;
+      // border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -40,8 +40,8 @@
 
       img {
         // height: 50%;
-        width: 60%;
-        border-radius: 50%;
+        width: 40%;
+        border-radius: 80px;
         border-bottom: 10px solid #9802be;
        
 
@@ -82,10 +82,10 @@
         color: rgb(204, 214, 246);
     background: linear-gradient(
 120deg
-, rgb(24, 39, 68), rgb(19, 44, 38));
+, rgb(8, 49, 132), rgb(15, 83, 67));
 padding: 20px 20px;
     margin: 20px 10px;
-    border: none;
+    border: 1px solid antiquewhite;
     outline: none;
     border-radius: 5px;
     transition: all .3s ease-in-out;
@@ -96,11 +96,11 @@ padding: 20px 20px;
           border-radius: 25px;
         }
         @include mobile{
-          width: 100px;
-          height: 40px;
+          // width: 100px;
+          // height: 30px;
           font-size: 18px;
-          padding: 5px 5px;
-    margin: 10px 0px;
+    //       padding: 5px 5px;
+    // margin: 10px 0px;
         }
     span{
       margin-right: 10px;
@@ -108,7 +108,8 @@ padding: 20px 20px;
 
        @include mobile{
       margin-right: 5px;
-      height: 100%;
+      // height: 100%;
+      // display: none;
     }
     }
    

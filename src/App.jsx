@@ -13,7 +13,8 @@ import Copyright from "./components/copyright/Copyright"
 function App() {
   const [menuOpen,setMenuOpen] = useState(false)
   return (
-    <div className="app" style={{backgroundImage: "url(https://refactored-waddle.vercel.app/static/media/home-bg.dc52d5d4.jpg)"}}>
+    <div className="app" style={{background:"linear-gradient(to bottom left,rgba(15,12,20,0.678),rgba(18,10,22,0.863)),url(https://refactored-waddle.vercel.app/static/media/home-bg.dc52d5d4.jpg)"}}>
+     {/* <div className="app"> */}
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
      

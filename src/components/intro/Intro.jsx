@@ -35,7 +35,7 @@ export default function Intro() {
       <div className="left">
         <div className="imgContainer">
           
-          <img src="assets/myPicfitFi.png" alt="" />
+          <img src="assets/newpicmai.jpeg" alt="" />
         </div>
       </div>
      

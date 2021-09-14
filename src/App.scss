@@ -4,11 +4,19 @@
   //  &::-webkit-scrollbar{
   //     display: none;
   //   }
+  //background-color: rgb(35,41,70);
 
+//   .app{
+// &::-webkit-scrollbar{
+//       display: none;
+//     }
+//     background-color: rgb(35,41,70)
+//   }
   .sections{
     width: 100%;
     height: calc(100vh - 70px);
-    background-color: lightsalmon;
+    // background-color: lightsalmon;
+    // background-color: rgb(35,41,70);
     position: relative;
     top: 70px;
     scroll-snap-type: y mandatory;
@@ -23,4 +31,7 @@
       scroll-snap-align: start;
     }
   }
+}
+.app{
+  overflow-y: hidden;
 }

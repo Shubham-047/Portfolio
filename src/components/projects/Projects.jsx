@@ -11,10 +11,12 @@ export default function Projects() {
           <img src={"assets/upgradfu.png"} alt="" />
         </div>
         <div className="pinf">
+          {/* <div className="pinfone"> */}
           <h3>Upgrad(clone)</h3>
           <p>
             A clone of India's largest online higher education platform which provides many online free as well as paid courses.
-          </p>
+            </p>
+            {/* </div> */}
           <h4>Tech Stack</h4>
           <p>HTML5 . CSS3 . Javascript</p>
           <div className="card_btn">

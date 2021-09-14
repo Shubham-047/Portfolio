@@ -7,12 +7,34 @@ export default function About() {
       <div className="about">
         <h1>About Me</h1>
         <div className="line"></div>
-        <div className="para">
-          Recent computer science graduate with a passion of developing scalable
-          web application and working across the full stack. I have designed the
+        <div className="parCont">
+          <div className="para">
+            <h2>Hi , I 'am Shubham</h2>
+           🏡 I am from Bokaro , Jharkhand.
+             <br />
+          
+            A Full-Stack Web Developer with a degree in Computer Science Engineering.
+            <br />
+           
+            I am always curious about learning new technologies, and love to develop scalable web applications.
+            <br />
+            
+          I have designed the
           clone of some of the websites using React, CSS,HTML and Javascript.
           Curious to learn and apply my skills on a large scale.
+          
+          
+          {/* I am a good team player. */}
+          
+          {/* Recent computer science graduate with a passion of developing scalable
+          web application and working across the full stack. I have designed the
+          clone of some of the websites using React, CSS,HTML and Javascript.
+          Curious to learn and apply my skills on a large scale. */}
         </div>
+        <div className="parImg">
+          <img src="assets/aboutImg.jpg" alt="" />
+          </div>
+          </div>
       </div>
       <div className="skills">
         <h1>Proficiency</h1>
