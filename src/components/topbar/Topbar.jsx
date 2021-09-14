@@ -1,7 +1,5 @@
 import "./topbar.scss";
-import { Person, Mail } from "@material-ui/icons";
-import CallIcon from '@material-ui/icons/Call';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+
 import GetAppIcon from '@material-ui/icons/GetApp';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
@@ -30,7 +28,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           
             
             </div>
-               <div className="itemContainer" onClick={() => window.open("assets/Resume.pdf", "_blank")}>
+               <div className="itemContainer" onClick={() => window.open("assets/ShubhamResume.pdf", "_blank")}>
               <span style={{ display: "flex" }}><GetAppIcon style={{height:"18px",margin:"2px",borderBottom:"none"}}/>  Resume</span>
           
             
