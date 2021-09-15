@@ -39,7 +39,7 @@ export default function Projects() {
           <h4>Tech Stack</h4>
           <p>React . Material-UI . Bootstrap . Styled-Components</p>
           <div className="card_btn">
-            <button>DEMO</button>
+            <button><a target="_blank" href="https://clone-of-indeed.netlify.app/">DEMO</a></button>
             <button><a target="_blank" href="https://github.com/sheikhtausif/IndeedClone"> CODE</a></button>
           </div>
         </div>
