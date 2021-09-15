@@ -20,7 +20,7 @@ export default function Projects() {
           <h4>Tech Stack</h4>
           <p>HTML5 . CSS3 . Javascript</p>
           <div className="card_btn">
-            <button>DEMO</button>
+            <button><a target="_blank" href="https://upgrad-ravishukla86044.vercel.app/">DEMO</a></button>
             <button><a target="_blank" href="https://github.com/Shubham-047/Upgrad-Clone"> CODE</a></button>
           </div>
         </div>
