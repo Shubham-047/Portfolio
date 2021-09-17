@@ -26,25 +26,33 @@ export default function Contact() {
             <div className="call">
               <div>Call me at:</div>
               <p>+91-9337822952</p>
+              </div>
+               <div className="call">
+              <div>Mail me at:</div>
+              <p>shubham1406kumar@gmail.com</p>
+            </div>
+            
             </div>
             <div className="icoL">
                 <div className="icoL_icon">
                   
-                   <a target="_blank" href="shubham1406kumar@gmail.com"><EmailIcon /></a>
+                <a target="_blank" href="shubham1406kumar@gmail.com"><EmailIcon style={{width: "60px",
+    height: "50px"}}/></a>
                 
               </div>
 
                 <div className="icoL_icon">
-                  <a target="_blank" href="https://www.linkedin.com/in/shubham-kumar-1478781b4/"><LinkedInIcon /></a>
+                  <a target="_blank" href="https://www.linkedin.com/in/shubham-kumar-1478781b4/"><LinkedInIcon style={{width: "60px",
+    height: "50px"}}/></a>
                 
               </div>
 
                 <div className="icoL_icon">
-                  <a target="_blank" href="https://github.com/Shubham-047"><GitHubIcon /></a>
+                  <a target="_blank" href="https://github.com/Shubham-047"><GitHubIcon style={{width: "60px",
+    height: "45px"}}/></a>
                 
               </div>
             </div>
-          </div>
           </div>
           <div className="gif">
             <img src={"assets/email3.gif"} alt="" />

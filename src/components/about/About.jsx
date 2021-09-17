@@ -12,13 +12,13 @@ export default function About() {
             <h2>Hi , I 'am Shubham</h2>
            🏡 I am from Bokaro , Jharkhand.
              <br />
-          
+           <br />
             I am a Full-Stack Web Developer with a degree in Computer Science Engineering.
             <br />
-           
+            <br />
             I am always curious about learning new technologies, and love to develop scalable web applications.
             <br />
-            
+             <br />
           I have designed the
           clone of some of the websites using React, CSS,HTML and Javascript.
           Curious to learn and apply my skills on a large scale.

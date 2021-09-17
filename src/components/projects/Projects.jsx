@@ -26,6 +26,27 @@ export default function Projects() {
         </div>
           </div>
           
+      
+
+       <div className="pcards">
+        <div className="pimg">
+          <img src={"assets/pricelin1.png"} alt="" />
+        </div>
+        <div className="pinf">
+          <h3>Priceline(clone)</h3>
+          <p>
+            A clone of online booking platform which offers users to book any hotels, cars , flights and cruises.
+          </p>
+          <h4>Tech Stack</h4>
+          <p>React . Material-UI . Styled-Components . Json-Server</p>
+          <div className="card_btn">
+            <button><a target="_blank" href="https://priceline-clone.vercel.app">DEMO</a></button>
+            <button><a target="_blank" href=" https://github.com/devSudhir/Priceline-Clone"> CODE</a></button>
+          </div>
+        </div>
+      </div>
+
+
 
           <div className="pcards">
         <div className="pimg">
@@ -46,23 +67,7 @@ export default function Projects() {
           </div>
          
 
-          <div className="pcards">
-        <div className="pimg">
-          <img src={"assets/pricelin1.png"} alt="" />
-        </div>
-        <div className="pinf">
-          <h3>Priceline(clone)</h3>
-          <p>
-            A clone of online booking platform which offers users to book any hotels, cars , flights and cruises.
-          </p>
-          <h4>Tech Stack</h4>
-          <p>React . Material-UI . Styled-Components . Json-Server</p>
-          <div className="card_btn">
-            <button><a target="_blank" href="https://priceline-clone.vercel.app">DEMO</a></button>
-            <button><a target="_blank" href=" https://github.com/devSudhir/Priceline-Clone"> CODE</a></button>
-          </div>
-        </div>
-      </div>
+         
     </div>
   );
 }
