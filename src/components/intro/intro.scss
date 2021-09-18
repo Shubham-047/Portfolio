@@ -83,7 +83,7 @@
         color: rgb(204, 214, 246);
     background: linear-gradient(
 120deg
-, rgb(8, 49, 132), rgb(15, 83, 67));
+, rgb(12, 29, 62), rgb(4, 32, 39));
 padding: 20px 20px;
     margin: 20px 10px;
     border: 1px solid antiquewhite;
@@ -92,6 +92,9 @@ padding: 20px 20px;
     transition: all .3s ease-in-out;
     cursor: pointer;
     font-size: 18px;
+    align-items: center;
+    // text-align: center;
+    justify-content: center;
     
         &:hover{
           border-radius: 25px;
@@ -104,8 +107,9 @@ padding: 20px 20px;
     // margin: 10px 0px;
         }
     span{
-      margin-right: 10px;
-      
+      margin-right: 5px;
+      font-size: 14px;
+      margin-left: -5px;
 
        @include mobile{
       margin-right: 5px;
