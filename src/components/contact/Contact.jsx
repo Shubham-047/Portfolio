@@ -36,7 +36,7 @@ export default function Contact() {
             <div className="icoL">
                 <div className="icoL_icon">
                   
-                <a target="_blank" href="shubham1406kumar@gmail.com"><EmailIcon style={{width: "60px",
+                <a href="mailto:shubham1406kumar@gmail.com"><EmailIcon style={{width: "60px",
     height: "50px"}}/></a>
                 
               </div>

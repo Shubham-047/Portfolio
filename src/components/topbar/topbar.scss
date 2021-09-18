@@ -15,7 +15,7 @@
     }
 
   .wrapper {
-    width: 80vw;
+    // width: 80vw;
     margin: auto;
     padding: 10px 30px;
     display: flex;
@@ -25,6 +25,8 @@
     .left {
       display: flex;
       align-items: center;
+      // margin-left: 6vw;
+      margin-left: 6vw;
      
     
       .logo {
@@ -75,7 +77,8 @@
       .option{
          display: flex;
         align-items: center;
-        margin-left: 30vw;
+        // margin-left: 30vw;
+         margin-left: 50vw;
         cursor: pointer;
         font-weight: 500;
 

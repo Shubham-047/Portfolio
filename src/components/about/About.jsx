@@ -9,7 +9,7 @@ export default function About() {
         <div className="line"></div>
         <div className="parCont">
           <div className="para">
-            <h2>Hi , I 'am Shubham</h2>
+            <h2>Hi , I am Shubham</h2>
            🏡 I am from Bokaro , Jharkhand.
              <br />
            <br />
