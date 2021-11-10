@@ -46,6 +46,25 @@ export default function Projects() {
         </div>
       </div>
 
+      
+
+           <div className="pcards">
+        <div className="pimg">
+          <img src={"assets/tumblr.png"} alt="" />
+        </div>
+        <div className="pinf">
+          <h3>Tumblr(clone)</h3>
+          <p>
+           Tumblr is an American microblogging and social networking website founded in 2007. The service allows users to post multimedia and other content to a short-form blog.
+          </p>
+          <h4>Tech Stack</h4>
+          <p>React . HTML5 . CSS3 . JavaScript . MongoDb . Mongoose . Express</p>
+          <div className="card_btn">
+            <button><a target="_blank" href="https://tumblrclone.netlify.app/">DEMO</a></button>
+            <button><a target="_blank" href=" https://github.com/abhishekmah/Tumblr-Project"> CODE</a></button>
+          </div>
+        </div>
+      </div>
 
 
           <div className="pcards">
